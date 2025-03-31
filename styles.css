@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(91, 91, 241);
+}
+.container {
+  padding: 5rem;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* display: none; */
+}
+#heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+input {
+  width: 20rem;
+  padding: 0.4rem 0.5rem;
+}
+#submit {
+  width: 15rem;
+  padding: 0.4rem 0.5rem;
+}
+.grid-container {
+  width: 36vw;
+  height: 36vh;
+  /* background-color: rgb(231, 199, 158); */
+  /* display: none; */
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  /* gap: 0.5rem 0.5rem; */
+  place-self: center;
+  display: none;
+}
+.grid-container > div {
+  height: 12vh;
+  width: 12vw;
+  background-color: rgba(196, 171, 230, 0.938);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+}
+.message {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.winning{
+	background-color:green !important;
+}
