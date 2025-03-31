@@ -9,8 +9,8 @@ let winPatterns = [
   [3, 4, 5],
   [6, 7, 8],
 ];
-let player1 = document.getElementById("player-1");
-let player2 = document.getElementById("player-2");
+let player1 = document.getElementById("player1");
+let player2 = document.getElementById("player2");
 let inputBox = document.querySelector(".input-box");
 let gridContainer = document.querySelector(".grid-container");
 let submitElement = document.getElementById("submit");
